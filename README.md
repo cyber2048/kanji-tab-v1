@@ -5,7 +5,7 @@
 
 ## Quick GIF Demo:
 
-![Quick Demo](assets/DemoAnimation.gif)
+![Quick Demo](assests/DemoAnimation.gif)
 
 
 ## How to install locally?
