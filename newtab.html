@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KanjiFlash</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f5f7fa;
+      text-align: center;
+      padding: 20px;
+    }
+
+    #kanji {
+      font-size: 90px;
+      margin-top: 20px;
+    }
+
+    .info {
+      font-size: 18px;
+      margin: 8px 0;
+    }
+
+    #next {
+      background: #4f46e5;
+      color: white;
+      border: none;
+      padding: 10px 25px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 20px;
+    }
+
+    #next:hover {
+      background: #3730a3;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 15px;
+      color: #2563eb;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    #container {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 20px;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div id="kanji">⛩️</div>
+    <div class="info" id="meaning"></div>
+    <div class="info" id="romaji"></div>
+    <div class="info" id="kana"></div>
+    <div class="info" id="hint"></div>
+    <div class="info" id="jlpt"></div>
+    <button id="next">Next Kanji</button>
+    <a id="learn-more" href="https://kanji-flash-frontend.onrender.com" target="_blank">Learn more</a>
+  </div>
+
+  <script src="newtab.js"></script>
+</body>
+</html>
